@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="Multicss.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsihome</title>
+
+    <style>
+        .carousell {
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousell-content {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .carousell-item {
+            width: 100%;
+            height: 700px;
+            flex-shrink: 0;
+            position: relative;
+            background-color: black;
+            
+        }
+
+        .carousell-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ffb13b;
+            text-align: center;
+        }
+
+        .carousell-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .carousell-button.prev {
+            left: 10px;
+        }
+
+        .carousell-button.next {
+            right: 10px;
+        }
+
+        .imga{
+            opacity: .4;
+        }
+    </style>
+
+</head>
+
+<div id="topper"></div>
+<div class="carousell">
+    <div class="carousell-content">
+        <div class="carousell-item">
+            <div class="carousell-text">
+                <h2>Welcome to Tapsimoto</h2>
+                <br>
+                <p>Come and Dine with us</p>
+            </div>
+            <div class="imga">
+            <img  style = "opacity: 0.4; width: 100%; height: 700px; object-fit: cover; background-position: 50px;"src="longalog.jpg" alt="Image 1">
+             </div>
+        </div>
+        <div class="carousell-item">
+            <div class="carousell-text">
+                <h2>Filipino Cuisine</h2>
+                <br>
+                <p>Try our special sisig</p>
+            </div>
+            <div class="imga">
+            <img  style = " opacity: 0.4; width: 100%; height: 700px; object-fit: cover; background-position: 50px;"src="loggy.jpg" alt="Image 2">
+            </div>
+        </div>
+        <div class="carousell-item">
+            <div class="carousell-text">
+                <h2>Order Now</h2>
+                <br>
+                <p>And get free complimentary sides and other promos</p>
+            </div>
+            <div class="imga">
+                <img  style = "opacity: 0.4; width: 100%; height: 700px; object-fit: cover; background-position: 50px;"src="siamo.jpg" alt="Image 1">
+            </div>
+        </div>
+    </div>
+    <div class="carousell-button prev">&lt;</div>
+    <div class="carousell-button next">&gt;</div>
+</div>
+<div class = "spagg">
+    <img style =" width: 100%; height: 100%;" src="spagett.png">
+</div>
+<div class="container">
+
+    <div class="row recom">
+        <!--md are for laptops and wide tablets-->
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 text-center descb"><b>Reccomended Dishes</b></div>
+        
+
+    </div>
+
+    <div class="row sec">
+        <!--md are for laptops and wide tablets-->
+        <div class="col-sm-12 col-md-11 col-lg-6  col-xl-5 title text-center">
+            
+            <img style = "height:280px; width:450px; object-fit: cover;"  src="https://cdn.discordapp.com/attachments/753956229369561188/1128968936994652222/image.png">
+            <p class="Paro"><b>Sisigsilog</b></p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 descr">It's hard to go wrong with one of best staple dishes in the Philippines. Derived from the dishes "sisig" and "itlog", those two freshly cooked along with a cup of Tapsimoto's signature yellow rice are what this dish is served with, all for a modest price!</div>
+
+    </div>
+
+    <div class="row sec">
+        <!--md are for laptops and wide tablets-->
+        <div class="col-sm-12 col-md-11 col-lg-6  col-xl-5 order-lg-2 order-xl-2 title text-center">
+            
+            <img style = "height:280px; width:450px; object-fit: cover;"  src="https://cdn.discordapp.com/attachments/916233140580786176/1128970831503052850/image.png">
+           <br> <p class="Paro"><b>Grilled Liempo</b></p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 order-lg-1 rder-xl-2 desc">Liempo grilled like no other, along with a freshly fried egg, and calamansi and chili if you prefer your pork with a little extra flavor on the sour or spicy side! Great for days if you're feeling particularly celebratory and wanna express that through a nice delicious meal.</div>
+
+    </div>
+
+    <div class="row sec">
+        <!--md are for laptops and wide tablets-->
+        <div class="col-sm-12 col-md-11 col-lg-6  col-xl-5 title text-center">
+            
+            <img style = "height:280px; width:450px; object-fit: cover;"  src="https://cdn.discordapp.com/attachments/916233140580786176/1128974380316229743/image.png">
+            <p class="Paro"><b>Tapsilog</b></p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 descr">The old classic breakfast meal for Filipinos. Served with freshly cooked beef tapa, a newly fried egg, and full Filipino authenticity, and your mood can only get better from there! Best eaten as a breakfast meal to give yourself a great start to a long day ahead.
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row text-center">
+        <div  class="col-sm-6 col-md-6 col-lg-6  col-xl-6 title container text-center">
+                
+            <button style="width:250px" onclick="myFunction()">Order Now!</button>
+            
+        </div>
+        <div  class="col-sm-6 col-md-6 col-lg-6  col-xl-6 title text-center">
+                
+            <button style="width:250px" onclick="myFunctionC()">About Us!</button>
+            
+        </div>
+    </div>
+    </div>
+
+
+    <br>
+    <br>
+
+
+    <!-- 
+        <div class="row">
+        <div class="col-sm-5 order-lg-2">colUnoe</div>
+        <div class="col-sm-7 order-lg-1">colDosr</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-1 offset-4">colUnoe</div>
+        <div class="col-sm-4">colDosr</div>
+    </div>
+        -->
+
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <div class = "Liv">
+        <div class = "row">
+        <div class = "col" align = "left"> <p> Powered by The Cryptics </p> </div>
+        <div class = "col" align = "left"> <p> Copyright © 2023, Tapsimoto. All Rights Reserved </p> </div> 
+        <div class = "col" align = "right"> <p><a href="https://discord.com/">Join our Discord now!</a></p> </div>
+        </div>
+        <div class = "row">
+        <div class = "col" align = "left"> <p> More updates to the site soon! </p></div>
+        <div class = "col" align = "right"> <p> <a href="#topper">Back Up Top</a></p> </div>
+        </div>
+    </div>
+    
+    <script>
+
+const carousel = document.querySelector('.carousell');
+        const carouselContent = document.querySelector('.carousell-content');
+        const prevButton = document.querySelector('.carousell-button.prev');
+        const nextButton = document.querySelector('.carousell-button.next');
+        const carouselItems = document.querySelectorAll('.carousell-item');
+
+        const itemWidth = carouselItems[0].offsetWidth;
+        let position = 0;
+
+        prevButton.addEventListener('click', () => {
+            position += itemWidth;
+            position = Math.min(position, 0);
+            carouselContent.style.transform = `translateX(${position}px)`;
+        });
+
+        nextButton.addEventListener('click', () => {
+            position -= itemWidth;
+            position = Math.max(position, -itemWidth * (carouselItems.length - 1));
+            carouselContent.style.transform = `translateX(${position}px)`;
+        });
+
+        function myFunction() 
+        {
+            location.href = "Multidos.html"
+            
+        }
+
+        function myFunctionC()
+        {
+            location.href="multibout.html"
+        }
+    </script>
+
+
+    
+
+
+</html>
